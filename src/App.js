@@ -1,5 +1,5 @@
 import React from "react";
-import SearchMovies from './searchMovies';
+import SearchMovies from './SearchMovies';
 
 function App() {
   return (
