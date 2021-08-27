@@ -8,7 +8,7 @@ function SearchMovies() {
     const searchMovies = async (e) => {
         e.preventDefault();
 
-        // key from tmdb
+        // key from TMDB
         const myApiKey = process.env.REACT_APP_TMDB_API_KEY;
 
         const url = `https://api.themoviedb.org/3/search/movie?api_key=${myApiKey}&language=en-US&query=${query}&page=1&include_adult=false`
